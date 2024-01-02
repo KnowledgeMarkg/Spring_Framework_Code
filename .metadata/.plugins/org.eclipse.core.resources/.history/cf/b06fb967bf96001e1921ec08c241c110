@@ -1,0 +1,8 @@
+package com.entities;
+
+public class Student {
+	private int student_Id;
+	private String studentName;
+	private String city;
+
+}

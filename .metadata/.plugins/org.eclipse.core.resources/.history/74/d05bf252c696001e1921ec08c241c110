@@ -1,0 +1,5 @@
+package com.springOrm.Dao;
+
+public class StudentDao {
+
+}

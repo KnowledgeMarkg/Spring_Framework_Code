@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx.xsd
+    ">
+    
+    <bean class="com.springLearn.LearnSpringFramework.Student" name="Student1">
+    
+    <!--  1st Method to set value 
+    <property name="studentId">
+    <value>123</value>
+    </property>
+    
+    <property name="studentName">
+    <value>Kausar</value>
+    </property>
+    
+    <property name="studentAdd">
+    <value>Bangalore</value>
+    </property>
+    -->
+    <!--  Second Method to set value to object -->
+    
+    <property name="studentId" value="1223"/>
+    <property name="studentName" value="Kausar"/>
+    <property name="studentAdd" value="Lucknows"/>
+    
+  
+    
+    </bean>
+ <!-- 3rd Method to set Value to the object with the object of IOC (inversion of control) -->
+    <bean class="com.springLearn.LearnSpringFramework.Student" name="student2" 
+    p:studentId = "12345"
+    p:studentName = "Kausar Raza Ansari "
+    p:studentAdd = "Lucknow"
+    />
+    
+ </beans>

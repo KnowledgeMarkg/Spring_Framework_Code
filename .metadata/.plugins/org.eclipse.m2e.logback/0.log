@@ -1,0 +1,2 @@
+2023-12-24 12:44:35,666 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-12-24 12:46:48,901 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/SpringCore: com.springCore:SpringCore:0.0.1-SNAPSHOT with classifier  to /SpringCore/target/classes

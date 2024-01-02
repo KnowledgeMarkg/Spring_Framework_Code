@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\faiza\Desktop\SpringFrameworkPractice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2238499324.index
+\springMVC\src\main\resources
+C:\Users\faiza\Desktop\SpringFrameworkPractice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\65910700.index
+\springMVC\src\main\java
+C:\Users\faiza\Desktop\SpringFrameworkPractice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1404831559.index
+\App\src\main\java

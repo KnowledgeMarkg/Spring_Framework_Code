@@ -1,0 +1,55 @@
+package com.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "student_details")
+public class Student {
+	@Id
+	@Column(name = "student_id")
+	private int student_Id;
+	@Column(name = "student_Name")
+	private String studentName;
+	@Column(name = "student_city")
+	private String city;
+
+	public int getStudent_Id() {
+		return student_Id;
+	}
+
+	public void setStudent_Id(int student_Id) {
+		this.student_Id = student_Id;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public Student(int student_Id, String studentName, String city) {
+		super();
+		this.student_Id = student_Id;
+		this.studentName = studentName;
+		this.city = city;
+	}
+
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

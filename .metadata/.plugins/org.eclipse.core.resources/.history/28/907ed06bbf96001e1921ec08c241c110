@@ -1,0 +1,14 @@
+package com.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "student_details")
+public class Student {
+	@id
+	private int student_Id;
+	private String studentName;
+	private String city;
+
+}
